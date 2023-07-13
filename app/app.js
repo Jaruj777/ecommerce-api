@@ -1,7 +1,3 @@
-//multer И раствор поможет нам настроить наш экспертный сервер для загрузки файлов.
-// cloudinary Затем облачный пакет для нас, чтобы сохранить файлы в облачной области.
-// multer-storage-cloudinary Цель этого пакета состоит в том, чтобы убрать всю сложность при настройке двигателя.
-
 import express from "express";
 import dotenv from "dotenv";
 import Stripe from "stripe";
@@ -22,7 +18,7 @@ import couponsRoute from "../routes/couponsRoute.js";
 
 dotenv.config();
 
-//DB Connect yarikir sHCNveMBWdFZtwSp
+//DB Connect
 dbConnect();
 
 const app = express();
